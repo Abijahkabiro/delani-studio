@@ -22,10 +22,9 @@ This is a project that entails recreating Delani Studio  landing page.It  allows
 * JQuery
 
 ### BDD
+* Clicking on the image on What We Do design,development and project management it will toggle a paragraph explaining about the service.
+* Hovering over each image in the Portfolio will show a white box with the name of the image.
+* Upon entering your details and message in the contact-us form, the data will be sent to mailchimp and you will receive a confirmation message thanking you for contacting them.
+* If the form is submitted without any values in the form, an alert message will pop-up telling you to put in valid information.​
 
-| **  Inputs **| **Description **         |
-| Name         | The users name           |
-| Email        | The users email          |
-|Message       | The message from the user|
-
-### LICENCE :[MIT] ()
+### LICENCE :[MIT] (https://github.com/Abijahkabiro/delani-studio/blob/master/LICENCE)
