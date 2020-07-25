@@ -3,15 +3,24 @@ $(document).ready(function() {
     $("#design").click(function(){
       $("#design-showing").toggle();
       $(".hideDesignImage").toggle();
-    })
+    });
     
     $("#development").click(function(){
         $("#development-showing").toggle();
-        $(".hide-development-image").toggle();
-    })
+        $(".hideDevelopmentImage").toggle();
+    });
 
     $("#productManagement").click(function(){
-        $("#product-management-showing").toggle();
-        $(".hide-product-management").toggle();
-    })
-})
+        $("#productManagement-showing").toggle();
+        $(".hideProductManagement").toggle();
+    });
+
+    $(".Hover").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      });
+    
+      
+});
