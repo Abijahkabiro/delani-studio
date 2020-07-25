@@ -3,14 +3,32 @@
     background-size: cover;
     text-align: center;
     color: white;
-  }.services {
+ }
+.services {
     background-image: url('../assets/backgrounds/s_image.jpg');
     background-size: cover;
     text-align: center;
     color: white;
     font-size: small;
     font-family:sans-serif;
-  }
-  .hide{
+}
+.hide{
     display:none;
-  }
+}
+.go-center {
+    height: 300px;
+    max-width: 300px;
+    padding:2px;
+}
+.Hover {
+    opacity:0;
+    display: flex;
+    background-color:rosybrown;
+    color: white;
+    position: absolute;
+    top:20%;
+    bottom:20%;
+    left:20%;
+    right:20%; 
+    transition: ease;
+}
