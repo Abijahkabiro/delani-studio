@@ -10,7 +10,7 @@
     text-align: center;
     color: white;
     font-size: small;
-    font-family:sans-serif;
+    font-family:'Amaranth',  sans-serif;
 }
 .hide{
     display:none;
@@ -47,6 +47,7 @@
 input[type=text]{
     background: transparent;
     color:white;
+    padding:4px;
 }
 textarea[type=text]{
     background: transparent;
@@ -56,14 +57,10 @@ textarea[type=text]{
 ::placeholder{
     color: white;
 }
-.button{
-    position:center;
-    background-color:green;
-}
 .socialMediaIcons {
     color: black;
     justify-content: center;
     text-align: center;
     font-size: x-small;
-    font-family: 'sans-serif';
-  }
+    font-family: 'Merriweather', sans-serif;
+}
