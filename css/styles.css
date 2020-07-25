@@ -9,5 +9,8 @@
     text-align: center;
     color: white;
     font-size: small;
-    font-family:  sans-serif;
+    font-family:sans-serif;
+  }
+  .hide{
+    display:none;
   }
