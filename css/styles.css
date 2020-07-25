@@ -18,13 +18,19 @@
 .go-center {
     height: 300px;
     max-width: 300px;
-    padding:2px;
+    padding:4px;
+}
+.row{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    margin-left: 20px;
 }
 .Hover {
     opacity:0;
     display: flex;
-    background-color:rosybrown;
-    color: white;
+    background-color:white;
     position: absolute;
     top:20%;
     bottom:20%;
@@ -32,3 +38,9 @@
     right:20%; 
     transition: ease;
 }
+.Contact-Us {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size:cover;
+    display: cover;
+    padding: 10%;
+  }
