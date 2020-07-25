@@ -56,3 +56,14 @@ textarea[type=text]{
 ::placeholder{
     color: white;
 }
+.button{
+    position:center;
+    background-color:green;
+}
+.socialMediaIcons {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    font-family: 'sans-serif';
+  }
