@@ -8,5 +8,10 @@ $(document).ready(function() {
     $("#development").click(function(){
         $("#development-showing").toggle();
         $(".hide-development-image").toggle();
-      })
+    })
+
+    $("#productManagement").click(function(){
+        $("#product-management-showing").toggle();
+        $(".hide-product-management").toggle();
+    })
 })
