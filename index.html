@@ -6,9 +6,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Great+Vibes|Lobster&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
-
     <title>Delani Studio</title>
+    
 </head>
 <body>
     <div class="container-fluid">
@@ -79,28 +78,28 @@
       <div class="Portfolio">
         <h3 style="text-align: center;">PORTFOLIO</h3>
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-3" id="work4">
+          <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work4">
               <img src="assets/portfolio/work4.jpg" alt="delani-image" width="100%">
             <div class="Hover">
              <p id=Hover_delaniStudio>Delani image</p>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-3" id="work3">
+          <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work3">
             <img src="assets/portfolio/work3.jpg" alt="Ontario Security image" width="100%">
           <div class="Hover">
             <p id=Hover_delaniStudio>Ontario Security</p>
           </div>
         </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-3" id="work2">
+          <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work2">
             <img src="assets/portfolio/work2.jpg" alt="delani-image2" width="100%">
           <div class="Hover">
             <p id=Hover_delaniStudio>Delani image2</p>
           </div>
         </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-3" id="work1">
+          <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work1">
             <img src="assets/portfolio/work1.jpg" alt="delani-image3" width="100%">
           <div class="Hover">
             <p id=Hover_delaniStudio>Delani image3</p>
@@ -109,45 +108,73 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3" id="work5">
+            <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work5">
               <img src="assets/portfolio/work5.jpg" alt="Chats-image" width="100%"> 
               <div class="Hover">
                 <p id=Hover_delaniStudio>Chats</p>
               </div> 
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3" id="work6">
+            <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work6">
                 <img src="assets/portfolio/work6.jpg" alt="Calculator-image" width="100%"> 
                 <div class="Hover">
                   <p id=Hover_delaniStudio>Calculator</p>
                 </div> 
             </div>  
 
-            <div class="col-sm-12 col-md-6 col-lg-3" id="work7">
+            <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work7">
                 <img src="assets/portfolio/work7.jpg" alt="Burned-logo-image" width="100%"> 
                 <div class="Hover">
                   <p id=Hover_delaniStudio>Burned-logo</p>
                 </div> 
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3" id="work8">
+            <div class="col-sm-12 col-md-6 col-lg-3 go-center" id="work8">
                 <img src="assets/portfolio/work8.jpg" alt="Giraffe-restaurant-image" width="100%"> 
                 <div class="Hover">
                   <p id=Hover_delaniStudio>Giraffe-restaurant</p>
                 </div> 
             </div>
+        </div>
+      </div>
+
+      <div class="Contact-Us">
+        <h3 style="text-align: center; color:white">CONTACT US</h3>
+           <form>
+            <div class="row" id="contact">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" name="NAME" class="name" id="name" placeholder="Name...">
+  
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-group">
+                    <label for="email"></label>
+                    <input type="text" name="EMAIL" class="email" id="email" placeholder="Email...">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                  <label for="message"></label>
+                  <!--use textarea to designate a plain text editing control with multiple lines-->
+                  <textarea type="text" name="MESSAGE" class="message" id="message" cols="35" rows="15" placeholder="Your message here..."></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="button"><input type="button" value="Submit" name="submit" id="button" class="button" placeholder="submit"></div>
+           </form>
+    </div>
+     
+
+
             
             
-             
+            
 
-        
-
-      
-
-
-
-          
-
-
+      <script src="js/jquery-3.5.1.js"></script>
+      <script src="js/scripts.js"></script>
+      </div>
 </body>
 </html>
