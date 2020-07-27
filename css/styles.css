@@ -1,3 +1,9 @@
+.container{
+    text-align: center;
+    padding-left: 10px;
+    margin: 0px;
+    align-content: center;
+}
 .introduction {
     background-image: url("../images/h_img.jpg");
     background-size: cover;
@@ -42,14 +48,14 @@
     background-image: url("../images/c_image.jpg");
     background-size:cover;
     display: cover;
-    padding: 10%;
+    padding: 30%;
 }
-input[type=text]{
+.input{
     background: transparent;
     color:white;
     padding:4px;
 }
-textarea[type=text]{
+.textarea{
     background: transparent;
     color: white;
 }
